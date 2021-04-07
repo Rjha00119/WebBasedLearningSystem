@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="WebBasedLearningSystem.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style8 {
+            width: 121px;
+            background-color: #00FFFF;
+        }
+        .auto-style9 {
+            width: 100%;
+            margin-right: 8px;
+        }
+        .auto-style10 {
+            width: 100%;
+        }
+        .auto-style11 {
+            text-align: center;
+            font-size: xx-large;
+            height: 108px;
+        }
+        .auto-style12 {
+            width: 946px;
+        }
+        .auto-style13 {
+            text-align: justify;
+            font-size: xx-large;
+            height: 39px;
+        }
+        .auto-style14 {
+            text-decoration: none;
+        }
+        .auto-style16 {
+            color: #000000;
+        }
+        .auto-style17 {
+            color: #000000;
+            text-decoration: none;
+        }
+        </style>
+</head>
+<body style="a:;">
+    <form id="form2" runat="server">
+                    <table border="3" class="auto-style10" style="background-image: url('/img/management.jpg'); background-position: 100% 100%">
+                        <tr>
+                            <td class="auto-style11">
+                                <strong>Management(Web-based Learning System)</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style13">
+                                <asp:Label ID="Label2" runat="server" Text="Welcome "></asp:Label>
+                                <asp:HyperLink ID="HyperLink7" runat="server">Login</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style14" OnClick="LinkButton1_Click">LogOut</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+        <table aria-atomic="False" aria-selected="undefined" class="auto-style9" border="3">
+            <tr>
+                <td class="auto-style8" style="background-image: url('/img/bak12.jpg'); background-position: inherit bottom">
+                    <strong>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TrainerMan.aspx" CssClass="auto-style17">Trainer Management</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CourseMan.aspx" CssClass="auto-style17">Course Management</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/PaymentMan.aspx" CssClass="auto-style17">Payment Management</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/CompFeedMan.aspx" CssClass="auto-style17">Complaint &amp; feedback Management</asp:HyperLink>
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink8" runat="server" CssClass="auto-style17" NavigateUrl="~/HelpSupportMan.aspx">Contact Us</asp:HyperLink>
+                    </strong>
+                    <br />
+                    <br />
+                     <br />
+                    <br />
+                     
+                </td>
+                <td class="auto-style12" style="background-image: url('/img/bak123.jpg'); background-position: 100% 100%">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style9" border="3">
+            <tr>
+                <td style="background-color: #FFFF00">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crafted by : Roushan jha (176217810)</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

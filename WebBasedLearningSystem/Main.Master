@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="WebBasedLearningSystem.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border: 2px solid #000000;
+            height: auto;
+            background-color: #0066FF;
+        }
+        .auto-style3 {
+            width: 114%;
+            height: 90px;
+            text-align: center;
+            background-color: #0066FF;
+        }
+        .newStyle1 {
+            font-family: "Courier New", Courier, monospace;
+            font-size: xx-large;
+            text-decoration: blink;
+            font-weight: bold;
+        }
+        .newStyle2 {
+            font-family: "Yu Gothic";
+            font-size: larger;
+            font-weight: 400;
+            font-style: oblique;
+            font-variant: normal;
+            text-transform: inherit;
+            color: #000000;
+            text-decoration: blink;
+        }
+        .auto-style16 {
+            width: 100%;
+            height: 27px;
+        }
+        .auto-style20 {
+            text-align: justify;
+            background-color: #3399FF;
+        }
+        .auto-style22 {
+            width: 115px;
+            background-color: #3366FF;
+        }
+        .auto-style24 {
+            font-size: xx-large;
+            background-color: #3366FF;
+        }
+        .auto-style25 {
+            font-size: x-large;
+            background-color: #3366FF;
+        }
+        .auto-style28 {
+            color: #FF9900;
+            font-size: x-large;
+        }
+        .auto-style29 {
+            color: #FFCC00;
+            font-size: large;
+        }
+        .auto-style30 {
+            width: 100%;
+        }
+        .auto-style31 {
+            width: 508px;
+        }
+        .auto-style32 {
+            width: 552px;
+        }
+        .auto-style34 {
+            color: #FFFFFF;
+            font-size: medium;
+        }
+        .auto-style36 {
+            font-size: large;
+            color: #FFFF00;
+        }
+        .auto-style38 {
+            width: 100px;
+            background-color: #3366FF;
+        }
+        .auto-style39 {
+            text-decoration: none;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1" border="3">
+            <tr>
+                <td class="auto-style3" style="background-image: url('/img/main2.jpg'); background-position: 100% 100%">
+                    <strong><span class="auto-style24">Web-Based Learnig System</span><br />
+                    <em><span class="auto-style25">Learning From anywhere</span></em></strong></td>
+            </tr>
+            </table>
+        <table border="3" class="auto-style16" style="background-image: none; background-position: 100% 40%">
+            <tr>
+                <td class="auto-style38"><strong>
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style39" NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+                    </strong></td>
+                <td class="auto-style38"><strong>
+                    <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style39" NavigateUrl="~/categories.aspx" ViewStateMode="Enabled">Courses</asp:HyperLink>
+                    </strong></td>
+                <td class="auto-style38"><strong>
+                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="auto-style39" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+                    </strong></td>
+                <td class="auto-style22">
+                    <strong>
+                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style39" NavigateUrl="~/Contact.aspx">Contact us</asp:HyperLink>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style20" colspan="4">
+                    <table cellpadding="1" cellspacing="1" class="auto-style30">
+                        <tr>
+                            <td class="auto-style31"><strong><span class="auto-style36">About Web-Based learning System</span></strong></td>
+                            <td class="auto-style32">&nbsp;</td>
+                            <td><strong><span class="auto-style36">Contact us</span></strong></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style31"><span class="auto-style34"><em>Web based learning system is a free learning site for everyone</em></span><em><br class="auto-style34" />
+                                </em>
+                                <span class="auto-style34"><em>where you caan learn without needing to attend class on </em> </span>
+                                <em>
+                                <br class="auto-style34" />
+                                </em>
+                                <span class="auto-style34"><em>campus. The main goal of this site is to provide a Learning </em> </span>
+                                <em>
+                                <br class="auto-style34" />
+                                </em>
+                                <span class="auto-style34"><em>from anywhere.</em></span></td>
+                            <td class="auto-style32"><strong><em><span class="auto-style29">
+                                <br />
+                                <br />
+                                <br />
+                                Design &amp; Devloped by: Roushan jha (176217810)</span><span class="auto-style28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></em></strong></td>
+                            <td><span class="auto-style34"><em>New Delhi, India</em></span><em><br class="auto-style34" />
+                                </em>
+                                <span class="auto-style34"><em>(+91)8527708836</em></span><em><br class="auto-style34" />
+                                </em>
+                                <span class="auto-style34"><em>jharoushan1998@gmail.com</em></span></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

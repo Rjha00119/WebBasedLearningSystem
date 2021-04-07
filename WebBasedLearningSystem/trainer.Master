@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="trainer.master.cs" Inherits="WebBasedLearningSystem.trainer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style8 {
+            width: 121px;
+            background-color: #00FFFF;
+        }
+        .auto-style9 {
+            width: 100%;
+        }
+        .auto-style10 {
+            width: 100%;
+        }
+        .auto-style11 {
+            width: 100%;
+            color: #663300;
+            background-color: #66FFFF;
+        }
+        .auto-style12 {
+            width: 946px;
+        }
+        .auto-style13 {
+            text-decoration: none;
+            font-size: large;
+        }
+        .auto-style14 {
+            font-size: large;
+        }
+        .auto-style15 {
+            font-size: xx-large;
+        }
+        .auto-style16 {
+            font-size: large;
+            color: #000000;
+        }
+        .auto-style17 {
+            text-decoration: none;
+            font-size: large;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+                    <table border="3" class="auto-style10">
+                        <tr>
+                            <td>
+                    <h1 class="auto-style11" style="background-position: 100% 100%; text-align: center; height: 82px; margin-bottom: 4px; background-image: url('/img/trainer.jpg'); text-decoration: blink;" dir="ltr">&nbsp;</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>
+                                <asp:Label ID="Label1" runat="server" CssClass="auto-style14" Text="Hello"></asp:Label>
+                                </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><span class="auto-style14">&nbsp; </span>
+                                <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style14">Login</asp:HyperLink>
+                                <span class="auto-style14">&nbsp;&nbsp;&nbsp; </span></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>
+                                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style13" OnClick="LinkButton1_Click">Logout</asp:LinkButton>
+                                </strong>
+                            </td>
+                        </tr>
+                    </table>
+        <table aria-atomic="False" aria-selected="undefined" class="auto-style9" border="3">
+            <tr>
+                <td class="auto-style8" style="background-image: url('/img/bak12.jpg')">
+                    <strong>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Profile.aspx" CssClass="auto-style17">Profile view</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/UploadCourseAssign.aspx" CssClass="auto-style17">Upload Course&#39;s &amp; Assignment</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/UNotification.aspx" CssClass="auto-style17">Notification Management</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/UploadTest.aspx" CssClass="auto-style17">Upload Test</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br class="auto-style16" />
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/PublishResult.aspx" CssClass="auto-style17">Publish Result</asp:HyperLink>
+                    <br class="auto-style16" />
+                    <br />
+                    <asp:HyperLink ID="HyperLink7" runat="server" CssClass="auto-style17" NavigateUrl="~/ViewCompFeedOnly.aspx">Complaint &amp; Feedback</asp:HyperLink>
+                    </strong>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    
+                    
+                </td>
+                <td class="auto-style12" style="background-image: url('/img/bak123.jpg'); background-position: 100% 100%">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p class="auto-style15">
+                            &nbsp;</p>
+                        <p class="auto-style15">
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style9" border="3">
+            <tr>
+                <td style="background-color: #FFFF00">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crafted by : Roushan jha (176217810)</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
